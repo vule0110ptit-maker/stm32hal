@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"adctempexam\startup_stm32f103xb.o"
+"adctempexam\main.o"
+"adctempexam\stm32f1xx_it.o"
+"adctempexam\stm32f1xx_hal_msp.o"
+"adctempexam\stm32f1xx_hal_gpio_ex.o"
+"adctempexam\stm32f1xx_hal_adc.o"
+"adctempexam\stm32f1xx_hal_adc_ex.o"
+"adctempexam\stm32f1xx_hal.o"
+"adctempexam\stm32f1xx_hal_rcc.o"
+"adctempexam\stm32f1xx_hal_rcc_ex.o"
+"adctempexam\stm32f1xx_hal_gpio.o"
+"adctempexam\stm32f1xx_hal_dma.o"
+"adctempexam\stm32f1xx_hal_cortex.o"
+"adctempexam\stm32f1xx_hal_pwr.o"
+"adctempexam\stm32f1xx_hal_flash.o"
+"adctempexam\stm32f1xx_hal_flash_ex.o"
+"adctempexam\stm32f1xx_hal_exti.o"
+"adctempexam\stm32f1xx_hal_uart.o"
+"adctempexam\system_stm32f1xx.o"
+--strict --scatter "ADCtempEXAM\ADCtempEXAM.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "ADCtempEXAM.map" -o ADCtempEXAM\ADCtempEXAM.axf

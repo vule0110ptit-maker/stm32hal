@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"adcinjectedexam\startup_stm32f103xb.o"
+"adcinjectedexam\main.o"
+"adcinjectedexam\stm32f1xx_it.o"
+"adcinjectedexam\stm32f1xx_hal_msp.o"
+"adcinjectedexam\stm32f1xx_hal_gpio_ex.o"
+"adcinjectedexam\stm32f1xx_hal_adc.o"
+"adcinjectedexam\stm32f1xx_hal_adc_ex.o"
+"adcinjectedexam\stm32f1xx_hal.o"
+"adcinjectedexam\stm32f1xx_hal_rcc.o"
+"adcinjectedexam\stm32f1xx_hal_rcc_ex.o"
+"adcinjectedexam\stm32f1xx_hal_gpio.o"
+"adcinjectedexam\stm32f1xx_hal_dma.o"
+"adcinjectedexam\stm32f1xx_hal_cortex.o"
+"adcinjectedexam\stm32f1xx_hal_pwr.o"
+"adcinjectedexam\stm32f1xx_hal_flash.o"
+"adcinjectedexam\stm32f1xx_hal_flash_ex.o"
+"adcinjectedexam\stm32f1xx_hal_exti.o"
+"adcinjectedexam\stm32f1xx_hal_uart.o"
+"adcinjectedexam\system_stm32f1xx.o"
+--strict --scatter "ADCinjectedExam\ADCinjectedExam.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "ADCinjectedExam.map" -o ADCinjectedExam\ADCinjectedExam.axf
