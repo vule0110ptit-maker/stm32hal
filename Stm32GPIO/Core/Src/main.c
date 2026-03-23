@@ -112,13 +112,13 @@ int main(void)
   {
     /* USER CODE END  */ 
 		/* Infinite loop */
-		if (HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_0) == GPIO_PIN_SET) 
+	if (HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_0) == GPIO_PIN_SET) 
     {
-        ledblink(100); // Cho LED nh?p nh·y
+        ledblink(100); // Cho LED nh?p nh√°y
     }
     else 
     {
-        // N?u –ANG nh?n n˙t (M?c 0)
+        // N?u √êANG nh?n n√∫t (M?c 0)
         led_low();     // T?t LED h?n
     }
     /* USER CODE BEGIN 3 */
