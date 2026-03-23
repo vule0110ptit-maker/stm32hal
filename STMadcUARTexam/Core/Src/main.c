@@ -21,7 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include <stdio.h>   // Thu vi?n cho h‡m sprintf
+#include <stdio.h>   // Thu vi?n cho h√†m sprintf
 #include <string.h>
 /* USER CODE END Includes */
 
@@ -106,7 +106,7 @@ int main(void)
   MX_GPIO_Init();
   MX_ADC1_Init();
   MX_USART1_UART_Init();
-	HAL_ADCEx_Calibration_Start(&hadc1);
+  HAL_ADCEx_Calibration_Start(&hadc1);
   /* USER CODE BEGIN 2 */
 
   /* USER CODE END 2 */
